@@ -1,0 +1,17 @@
+http_server_url: http://example.com/path
+
+beanstalk:
+  server: localhost:11300
+  queue: /queues/tweets
+
+twitter:
+  consumer_token: 
+  consumer_secret: 
+  access_token: 
+  access_secret: 
+
+bitly:
+  login: 
+  apikey:
+
+logger: /tmp/twitter_updater.log

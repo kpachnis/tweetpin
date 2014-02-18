@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+require 'pathname'
+
+dir = Pathname(__FILE__).dirname.expand_path
+require (dir + '..' + 'lib' + 'tweetpin').expand_path
+
+Tweetpin::Runner.start 
