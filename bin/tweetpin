@@ -4,4 +4,4 @@ require 'pathname'
 dir = Pathname(__FILE__).dirname.expand_path
 require (dir + '..' + 'lib' + 'tweetpin').expand_path
 
-Tweetpin::Runner.start 
+Tweetpin::Runner.start
